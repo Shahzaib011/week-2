@@ -84,8 +84,8 @@ flutter run
 **M Shahzaib**
 Flutter • Laravel • Web Developer
 
-* GitHub: [https://github.com/Shahzaib011](https://github.com/Shahzaib011)
-* LinkedIn: [https://linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+* GitHub: https://github.com/Shahzaib011
+* LinkedIn: https://www.linkedin.com/in/muhammad-shahzaib-0a4770312
 
 ---
 

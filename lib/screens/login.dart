@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'dashboard.dart';
+import 'home_screen.dart';
 import '../models/user_model.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -15,18 +15,18 @@ class _LoginScreenState extends State<LoginScreen> {
   final TextEditingController _passwordController = TextEditingController();
 
   // Dummy credentials
-  final dummyEmail = "user@test.com";
+  final dummyEmail = "shahzaibzaibi415@gmail.com";
   final dummyPassword = "123456";
 
   void _login() {
     if (_formKey.currentState!.validate()) {
       if (_emailController.text == dummyEmail &&
           _passwordController.text == dummyPassword) {
-        User user = User(name: "John Doe", email: dummyEmail);
+        User user = User(name: "Shahzaib", email: dummyEmail);
         Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (_) => DashboardScreen(user: user),
+            builder: (_) => HomeScreen(user: user),
           ),
         );
       } else {

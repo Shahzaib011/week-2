@@ -25,13 +25,13 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.blue.shade900,
-      body: Center(
+      body: const Center(
         child: Text(
-          "Futuristic Dashboard",
+          "To-Do App",
           style: TextStyle(
-            fontSize: 28,
+            fontSize: 26,
             fontWeight: FontWeight.bold,
-            color: Colors.cyanAccent.shade200,
+            color: Colors.white,
           ),
         ),
       ),
