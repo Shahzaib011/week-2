@@ -1,99 +1,26 @@
-# Flutter Week 2 Dashboard App
+# Week 2: To-Do App with Water Counter
 
-## 📱 Project Overview
+**Developed By:** M Shahzaib  
+**ID:** DHC-2019  
+**GitHub:** https://github.com/Shahzaib011/week-2.git
 
-This is a **Week 2 Flutter internship project**, built as a brand-new application to demonstrate core Flutter concepts beyond basic UI.
-
-The app focuses on **state management, navigation, data passing, and list rendering**, following a clean and minimalistic UI approach with a subtle futuristic feel.
-
----
-
-## 🎯 Internship Objectives (Week 2)
-
-* Understand Flutter app flow
-* Work with state and data models
-* Navigate between multiple screens
-* Build reusable widgets
-* Display dynamic lists using `ListView.builder`
+**LinkedIn:** https://www.linkedin.com/in/muhammad-shahzaib-0a4770312
 
 ---
 
-## ✨ Features
+## Project Description
+A simple Flutter application built as part of Week 2 internship tasks.  
+The app combines a **To-Do list** and a **water glass counter** to demonstrate **state management** and **persistent local storage** using `SharedPreferences`.
 
-* Splash Screen with timed navigation
-* Login Screen with dummy authentication
-* Dashboard Screen with welcome message and list of items
-* Profile Screen displaying user information
-* Logout functionality
-* Clean folder structure
-* Minimalistic & modern UI
-
----
-
-## 🗂️ Folder Structure
-
-```
-lib/
- ├── models/
- │    └── user_model.dart
- ├── screens/
- │    ├── splash_screen.dart
- │    ├── login_screen.dart
- │    ├── dashboard_screen.dart
- │    └── profile_screen.dart
- ├── widgets/
- │    └── info_card.dart
- └── main.dart
-```
+### Features
+- **Splash Screen** with a 2-second delay
+- **Login Screen** with dummy credentials
+- **Home Screen** containing:
+    - **To-Do List**: Add and delete tasks
+    - **Water Glass Counter**: Increment and decrement water intake
+- **Persistent Storage**: All tasks and water count are saved locally and retained after app restart
 
 ---
 
-## 🔐 Dummy Login Credentials
+## Folder Structure
 
-```
-Email: user@test.com
-Password: 123456
-```
-
----
-
-## ▶️ How to Run the Project
-
-1. Install **Flutter SDK**
-2. Clone this repository
-3. Run the following commands:
-
-```bash
-flutter pub get
-flutter run
-```
-
----
-
-## 🛠️ Requirements
-
-* Flutter 3.x
-* Dart SDK
-* Android Studio or VS Code
-* Android Emulator or Physical Device
-
----
-
-## 👨‍💻 Developed By
-
-**M Shahzaib**
-Flutter • Laravel • Web Developer
-
-* GitHub: https://github.com/Shahzaib011
-* LinkedIn: https://www.linkedin.com/in/muhammad-shahzaib-0a4770312
-
----
-
-## 📌 Notes
-
-* This project is created purely for **learning and internship evaluation purposes**.
-* Backend and real authentication will be implemented in later weeks.
-
----
-
-⭐ If you find this project useful, feel free to star the repository!
