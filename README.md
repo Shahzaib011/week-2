@@ -24,3 +24,30 @@ The app combines a **To-Do list** and a **water glass counter** to demonstrate *
 
 ## Folder Structure
 
+lib/
+├── main.dart
+└── screens/
+    ├── splash.dart
+    ├── login_screen.dart
+    ├── home_screen.dart
+    ├── health_screen.dart
+    └── storage_service.dart
+How to Run: Install [Flutter SDK](https://flutter.dev/docs/get-started/install), 
+clone repo: `git clone https://github.com/Shahzaib011/week-2.git`, 
+navigate: `cd week-2`, 
+install dependencies: `flutter pub get`, 
+run app: `flutter run`. 
+
+## Requirements: 
+**Flutter 3.+**, 
+**Android Studio or VS Code**, 
+**Dart SDK**. 
+
+Notes: 
+***
+## Dummy credentials: 
+**Email:** shahzaibzaibi415@gmail.com, 
+**Password:** 123456. ***
+
+
+
